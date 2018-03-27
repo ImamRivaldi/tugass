@@ -12,6 +12,11 @@ package tugass;
 public class PemesananTiket {
     int hrgTiket;
     int jmlBeli;
+
+    public PemesananTiket() {
+        hrgTiket=150000;
+        jmlBeli=3;
+    }
     
     void tampildata(){
         System.out.println("~~~~~~~~~~~Pemesanan~~~~~~~~~~~~");
