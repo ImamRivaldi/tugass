@@ -10,5 +10,13 @@ package tugass;
  * @author ACER
  */
 public class PemesananTiket {
+    int hrgTiket;
+    int jmlBeli;
     
+    void tampildata(){
+        System.out.println("~~~~~~~~~~~Pemesanan~~~~~~~~~~~~");
+        System.out.println("Harga Tiket         = "+hrgTiket);
+        System.out.println("Jumlah Pembelian    = "+jmlBeli);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    }
 }
