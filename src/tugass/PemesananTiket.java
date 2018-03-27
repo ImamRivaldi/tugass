@@ -17,6 +17,11 @@ public class PemesananTiket {
         hrgTiket=150000;
         jmlBeli=3;
     }
+
+    public PemesananTiket(int hrgTiket, int jmlBeli) {
+        this.hrgTiket = hrgTiket;
+        this.jmlBeli = jmlBeli;
+    }
     
     void tampildata(){
         System.out.println("~~~~~~~~~~~Pemesanan~~~~~~~~~~~~");
