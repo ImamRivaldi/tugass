@@ -19,4 +19,10 @@ public class PemesananTiket {
         System.out.println("Jumlah Pembelian    = "+jmlBeli);
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
+    
+    int hitungPembelian(){
+        int total;
+        total=hrgTiket*jmlBeli;
+        return total;
+    }
 }

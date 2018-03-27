@@ -17,5 +17,6 @@ public class PemesananAksi {
         P1.jmlBeli=5;
         
         P1.tampildata();
+        System.out.println("Total Harga         = "+P1.hitungPembelian());
     }
 }
