@@ -15,5 +15,7 @@ public class PemesananAksi {
         
         P1.hrgTiket=200000;
         P1.jmlBeli=5;
+        
+        P1.tampildata();
     }
 }
