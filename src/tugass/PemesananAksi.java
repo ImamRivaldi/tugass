@@ -11,6 +11,6 @@ package tugass;
  */
 public class PemesananAksi {
     public static void main(String[] args) {
-        
+        PemesananTiket P1 = new PemesananTiket();
     }
 }
