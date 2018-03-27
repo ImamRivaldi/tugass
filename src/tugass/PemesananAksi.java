@@ -12,5 +12,8 @@ package tugass;
 public class PemesananAksi {
     public static void main(String[] args) {
         PemesananTiket P1 = new PemesananTiket();
+        
+        P1.hrgTiket=200000;
+        P1.jmlBeli=5;
     }
 }
