@@ -18,5 +18,6 @@ public class PemesananAksi {
         
         P1.tampildata();
         System.out.println("Total Harga         = "+P1.hitungPembelian());
+        P1.cetaktotal();
     }
 }

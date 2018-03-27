@@ -25,4 +25,8 @@ public class PemesananTiket {
         total=hrgTiket*jmlBeli;
         return total;
     }
+    
+    void cetaktotal(){
+        System.out.println("Totalnya            = "+hitungPembelian());
+    }
 }
